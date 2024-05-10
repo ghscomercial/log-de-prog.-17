@@ -1,0 +1,19 @@
+<script>
+    var nota1 = parseFloat(prompt("Informe a primeira nota do aluno:"));
+    var nota2 = parseFloat(prompt("Informe a segunda nota:"));
+    var nota3 = parseFloat(prompt("Informe a terceira nota:"));
+    var nota4 = parseFloat(prompt("Informe a quarta nota:"));
+    
+    var media = (nota1 + nota2 + nota3 + nota4) / 4;
+    
+    document.write("A média do aluno é: " + media + "<br><br>");
+    
+    var frequencia = parseFloat(prompt("Informe a frequência do aluno:"));
+    
+    if (media >= 7 && frequencia >= 75) {
+        document.write("O aluno está aprovado.");
+    } else {
+        document.write("<br>O aluno está reprovado.");
+    }
+    </script>   
+    
